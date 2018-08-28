@@ -9,4 +9,15 @@ public class LibraryTest {
         Library classUnderTest = new Library();
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
     }
+    
+    @Test public void testNotGoingToWork(){
+    	Library classUnderTest = new Library();
+        assertTrue("NotGoingToWork should return 'true'", !classUnderTest.notGoingToWork());
+    }
+    @Test public void testWord(){
+    	Library classUnderTest = new Library();
+        assertTrue("testWord should return 'true'", classUnderTest.word().equals("hello world"));
+    }
+    
+//    "hello world";
 }
