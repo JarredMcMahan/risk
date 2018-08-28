@@ -5,4 +5,12 @@ public class Library {
     public boolean someLibraryMethod() {
         return true;
     }
+    
+    public boolean notGoingToWork(){
+    	return false;
+    }
+    public String word(){
+    	return "hello world";
+    }
+    
 }
