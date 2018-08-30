@@ -10,7 +10,7 @@ public class Library {
     	return false;
     }
     public String word(){
-    	return "hello world";
+    	return "helo world";
     }
     
 }
